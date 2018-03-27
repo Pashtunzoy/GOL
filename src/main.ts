@@ -2,7 +2,7 @@ interface IConwaysGOL {
     letsGetStarted(): string;
 }
 
-class ConwaysGOL implements IConwaysGOL {
+export default class ConwaysGOL implements IConwaysGOL {
     letsGetStarted(): string {
         return "Woohoo";
     }
