@@ -1,0 +1,38 @@
+{
+  "name": "gol",
+  "version": "1.0.0",
+  "description": "Conways Game of Life in Typescript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ts-node node_modules/tape/bin/tape test/*.spec.ts | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pashtunzoy/GOL.git"
+  },
+  "keywords": [
+    "typescript",
+    "conways",
+    "game",
+    "of",
+    "life"
+  ],
+  "author": "Asif Norzai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pashtunzoy/GOL/issues"
+  },
+  "homepage": "https://github.com/Pashtunzoy/GOL#readme",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0",
+    "tslint-microsoft-contrib": "^5.0.3",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "ts-node": "^5.0.1"
+  }
+}
