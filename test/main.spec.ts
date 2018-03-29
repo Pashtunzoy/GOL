@@ -11,3 +11,9 @@ test('There exist a method called restart that returns undefined', (t) => {
     t.equals(newGame.restart(), undefined);
     t.end();
 });
+
+test('There exist a method called start that returns undefined', (t) => {
+    const newGame = new ConwaysGOL();
+    t.equals(newGame.start(), undefined);
+    t.end();
+});
